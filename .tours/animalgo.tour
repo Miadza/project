@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "AnimalGO",
+  "steps": [
+    {
+      "file": "base.go",
+      "description": "для назначения бесконечного цикла используется просто for без значений. While в go нет",
+      "line": 126
+    }
+  ]
+}
