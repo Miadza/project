@@ -5,7 +5,7 @@ type Bear struct {
 }
 
 func (b Bear) Sound() string {
-	return "Медведь может рычать, свистеть, пищать, фыркать."
+	return "ррр"
 }
 
 func (b Bear) Move() string {
@@ -14,4 +14,8 @@ func (b Bear) Move() string {
 
 func (b Bear) Swim() int {
 	return 1
+}
+
+func (b Bear) SoundFile() string {
+	return "Bear.mp3"
 }

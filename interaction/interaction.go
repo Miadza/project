@@ -5,6 +5,7 @@ import (
 	"helloapp/animal"
 )
 
+
 func PrintAnimal(a animal.Animal) {
 	fmt.Println("Звуки:", a.Sound())
 	fmt.Println("Движение:", a.Move())

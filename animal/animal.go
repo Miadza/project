@@ -7,4 +7,5 @@ type Swimmer interface {
 type Animal interface {
 	Sound() string
 	Move() string
+	SoundFile() string
 }
