@@ -15,3 +15,7 @@ func (g Giraffe) Move() string {
 func (g Giraffe) Swim() int {
 	return 0
 }
+
+func (g Giraffe) SoundFile() string {
+	return "Giraffe.mp3"
+}

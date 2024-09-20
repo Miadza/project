@@ -15,3 +15,7 @@ func (p Penguin) Move() string {
 func (p Penguin) Swim() int {
 	return 1
 }
+
+func (p Penguin) SoundFile() string {
+	return "Penguin.mp3"
+}

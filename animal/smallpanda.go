@@ -1,17 +1,21 @@
 package animal
 
-type SmallPanda struct {
+type Smallpanda struct {
 	Size string
 }
 
-func (s SmallPanda) Sound() string {
+func (s Smallpanda) Sound() string {
 	return "Малые панды издают звуки, напоминающие птичье щебетание."
 }
 
-func (s SmallPanda) Move() string {
+func (s Smallpanda) Move() string {
 	return "Малые панды ловко лазают по веткам."
 }
 
-func (s SmallPanda) Swim() int {
+func (s Smallpanda) Swim() int {
 	return 1
+}
+
+func (s Smallpanda) SoundFile() string {
+	return "Panda.mp3"
 }

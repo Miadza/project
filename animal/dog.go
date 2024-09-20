@@ -15,3 +15,7 @@ func (d Dog) Sound() string {
 func (d Dog) Swim() int {
 	return 1
 }
+
+func (d Dog) SoundFile() string {
+	return "Dog.mp3"
+}

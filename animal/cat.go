@@ -15,3 +15,7 @@ func (c Cat) Move() string {
 func (c Cat) Swim() int {
 	return 1
 }
+
+func (c Cat) SoundFile() string {
+	return "Cat.mp3"
+}
